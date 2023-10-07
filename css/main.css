@@ -21,6 +21,7 @@ video#bgvid {
 header {
   position: relative;
   margin: 30px 0;
+  text-align: center;
 }
 
 header:after {
