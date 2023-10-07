@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   background: #000;
   font-family: "Noto Serif", serif;
@@ -21,7 +27,7 @@ video#bgvid {
 header {
   position: relative;
   margin: 30px 0;
-  text-align: center;
+  align-items: center;
 }
 
 header:after {
@@ -38,26 +44,17 @@ h1 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  margin: 0;
 }
 
 h2 {
   color: #fff;
   font-size: 24px;
-  font-style: italic;
   font-weight: 400;
-  margin: 0 0 30px;
 }
 
 .nowplaying {
   font-size: 120px;
-  line-height: 1;
   color: #eee;
-  text-shadow: 0 0 5rem #028ae9;
-  transition: all 0.07s ease;
-  min-height: 120px;
 }
 
 .keys {
