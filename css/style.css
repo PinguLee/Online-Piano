@@ -7,6 +7,31 @@
 #root {
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: #143f14;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piano {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 10px;
+}
+
+.key {
+
+}
+
+.white {
+  width: 2vw;
+  height: 8vh;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.black {
+
 }
