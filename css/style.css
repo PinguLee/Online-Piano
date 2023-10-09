@@ -33,5 +33,8 @@
 }
 
 .black {
-
+  width: 3vw;
+  height: 10vh;
+  background-color: black;
+  z-index: 2;
 }
